@@ -1,0 +1,47 @@
+.main-wrapper,
+.page-content {
+  padding: 50px 0;
+  background: #c8d4ea;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.ul {
+  list-style: none;
+  padding-block-start: 0;
+}
+
+.checkbox--checked {
+  opacity: 0.6;
+}
+
+.checkbox--checked label {
+  text-decoration: line-through;
+}
+
+.task-board {
+  padding: 20px;
+  max-height: calc(100vh - 200px);
+  max-width: 360px;
+  width:100%;
+}
+
+.task-board + .task-board {
+  margin-left: 20px;
+}
+
+.input-field {
+  max-width: 200px;
+  margin-right:10px;
+}
+
+.logo {
+  width: 100%;
+}
+
